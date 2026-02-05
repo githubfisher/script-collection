@@ -40,7 +40,7 @@ def start_server():
     
     try:
         # 运行SSH文件管理器
-        os.system("python3 ssh_file_manager.py")
+        os.system("python ssh_file_manager.py")
     except KeyboardInterrupt:
         print("\n👋 SSH文件管理器已停止")
         return True
